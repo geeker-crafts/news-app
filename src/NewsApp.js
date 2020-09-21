@@ -36,7 +36,7 @@ export default class NewsApp extends React.Component {
     //declaration
     loadNews = () => {
         axios({
-            url: 'http://newsapi.org/v2/top-headlines',
+            url: 'https://newsapi.org/v2/top-headlines',
             method: 'GET',
             params: {
                 country: 'in',
